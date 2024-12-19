@@ -36,6 +36,12 @@ const songs = [
         muzikIsim: 'İltimas',
         foto: 'i.jpg',
         sanatci: 'Gülşen'
+    },
+    {
+        path: 'song5.mp3',
+        muzikIsim: 'Büyük Hatırın Var',
+        foto: 'kapak.jpg,.jpg',
+        sanatci: 'Gülşen'
     }
 ];
 
