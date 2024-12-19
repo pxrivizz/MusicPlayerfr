@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="backgroundImg">
+        <img src="kapak.jpg,.jpg" id="bgImage" alt="bgimage">
+    </div>
+    <header>
+        <div class="bottombox">
+            <h3>Music Player</h3>
+            <div class="searchbox">
+                <input type="text" placeholder="What do you want to listen to?" class="searchbar">
+            </div>
+            <ul>
+                <li><a href="login.html" class="Login">Login</a></li>
+                <li><a href="#" class="signUp">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <div class="player">
+        <img class="albumphoto" id="kapak" src="kapak.jpg,.jpg" alt="kapak-foto" width="300px">
+        <div class="nameForSong">
+            <h3 id="muzikAdi">Büyük Hatırın Var</h3>
+            <p id="sanatci">Gülşen</p>
+        </div>
+        <div class="playerProgress" id="player-progress">
+            <div class="progress"></div>
+            <div class="musicDuraction">
+                <p style="display: inline;" id="currentTime">0:00</p>
+                <p style="display: inline;" id="duraciton">2:41</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="backbttn">
+                <i class="fa-solid fa-backward" title="Backward" id="backwardbttn"></i>
+            </div>
+            <div class="playstopbttn" id="playstop">
+                    <i class="fa-solid fa-play" title="Play" id="playbttn"></i>
+            </div>
+            <div class="forwardbttn">
+                <i class="fa-solid fa-forward" title="Forward" id="forwardbttn"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
